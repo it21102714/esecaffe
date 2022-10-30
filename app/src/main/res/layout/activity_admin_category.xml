@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AdminCategoryActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/login_applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <Button
+        android:id="@+id/admin_enquires_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/login_applogo"
+        android:background="@drawable/buttons"
+        android:text="Enquire Handling"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/add_product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_enquires_btn"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttons"
+        android:text="ADD PRODUCT"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/edit_product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_product_btn"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttons"
+        android:text="EDIT PRODUCT"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_product_btn"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttons"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+</RelativeLayout>
